@@ -1,0 +1,316 @@
+.header{
+	height: 50px;
+	background-color: #2196F3;
+}
+ul{
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: flex-end;
+	
+}
+a{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+}
+a:hover{
+	color: black;
+}
+.navbar-brand img{
+	display: block;
+	height: 75px;
+	width: 380px;
+}
+.nav-item a{
+	color: black;
+	font-size: 25px;
+}
+.bg1 img{
+	height: 80vh;
+	width: 100%;
+	opacity: 0.98;
+}
+.bg2 img{
+	height: 80vh;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	opacity: 0.9;
+}
+
+.div-2{
+	width: 410px;
+	border:none;
+	margin-bottom: 39px;
+
+}
+form{
+	text-align: start;
+	width: 410px;
+	border-radius: 20px;
+	box-shadow: 0 10px 10px  blue;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+label{
+	color: white;
+	font-size: 27px;
+	font-weight: bold;
+}
+input{
+	height: 50px;
+	width: 340px;
+	border-radius: 20px;
+	background-color:rgba(0, 0, 0, 0.1);
+	outline: none;
+}
+input:hover{
+	background-color:transparent;
+}
+::placeholder{
+	color: lightgray;
+	font-size: 18px;
+	padding-left: 10px;
+}
+input:focus{
+	background-color: white;
+}
+.btn1{
+	border-radius: 20px;
+	width: 100px;
+	margin-left: 150px;
+}
+.div-1{
+	text-align: right;
+}
+.div-1 h2{
+	letter-spacing: 2px;
+}
+.div-3 h2{
+	letter-spacing: 2px;
+}
+span{
+	color: blue;
+}
+.btn2{
+	height: 60px;
+	width: 150px;
+	border-radius: 30px;
+}
+.div-4{
+	text-align: center;
+}
+.div-4 p{
+	font-size: 60px;
+	font-weight: bold;
+}
+.div-4 span{
+	color: gray;
+	font-size: 30px;
+
+}
+.div-5{
+	text-align: center;
+}
+.div-5 p{
+	font-weight: bold;
+
+}
+.div-5 span{
+	color: gray;
+}
+.div-5 img{
+	width: 100%;
+}
+.div-5 .diamond{
+	height: 20px;
+	width: 20px;
+}
+.div-5 i{
+	color: ;
+}
+.div-6{
+	position: relative;
+	height: 370px;
+	background-image: url(images/Rectangle-31.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	opacity:0.9;
+}
+.div-6b{
+	position: relative;
+	height: 370px;
+	background-image: url(images/header-bg2.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	opacity: 0.88;
+}
+
+.left{
+	width: 370px;
+	position: absolute;
+	top: 60px;
+	left: 55px;
+	display: flex;
+}
+.left .div-7{
+	width: 200px;
+	text-align: end;
+	background-color: transparent;
+	border: none;
+	font-size: 18px;
+	font-weight: bold;
+}
+.div-7 span{
+	font-family: ariel;
+	font-size: 40px;
+	letter-spacing: 3px;
+	color: black;
+}
+.left .div-8{
+	width: 200px;
+	text-align: start;
+	background-color: transparent;
+	border-left: 1px solid gray;
+	font-size: 18px;
+	font-weight: bold;
+}
+.div-8 span{
+	color: #ff771f;
+	font-weight: bold;
+	letter-spacing: 1px;
+	font-size: 40px;
+}
+.div-9{
+	position: absolute;
+	top: 170px;
+	left: 42px;
+	font-weight: bold;
+	color: black;
+	font-size: 17px;
+	line-height: 28px;
+}
+.div-9 span{
+	color: #ff771f;
+}
+.div-9 .btn2{
+	height: 50px;
+}
+.div-9 .btn2:hover{
+	background-color: black;
+	color: white;
+}
+.right{
+	width: 450px;
+	position: absolute;
+	top: 60px;
+	left: 50px;
+	display: flex;
+}
+.right .div-10{
+	width: 500px;
+	text-align: start;
+	background-color: transparent;
+	border: none;
+	font-size: 18px;
+	font-weight: bold;
+	color: black;
+}
+.div-10 span{
+	color: green;
+	font-size: 40px;
+	font-family: ariel;
+	font-weight: bold;
+	letter-spacing: 3px;
+}
+.right .div-11{
+	width: 290px;
+	text-align: start;
+	background-color: transparent;
+	border-left: 1px solid gray;
+	font-size: 18px;
+	font-weight: bold;
+}
+.div-11 span{
+	font-size: 32px;
+	color: green;
+}
+.grid{
+	text-align: center;
+	margin: auto;
+
+}
+.grid h1{
+	font-size: 55px;
+	letter-spacing: 2px;
+}
+.grid p{
+	font-size: 26px;
+}
+.gridbottom img{
+	width: 100%;
+	margin: auto;
+}
+
+.footer{
+	background-color:#097c72;
+
+}
+
+.footer a{
+	color: lightgray;
+	margin: auto;
+	font-size: 15px;
+}
+
+.fotr1 img{
+	height: 65px;
+	width: 270px;
+}
+.fotr1 p{
+	 color: lightgray;
+}
+.fotr1 i{
+	font-size: 26px;
+	border-radius: 50%;
+}
+
+.fotr2{
+	text-align: center;
+}
+.fotr2 a{
+	display: block;
+}
+.fotr3{
+	text-align: center;
+	margin: auto;
+}
+.fotr3 a{
+	display: block;
+}
+.fotr4{
+	text-align: center;
+	/*margin:auto;*/
+}
+hr{
+	color:white;
+	
+}
+.fotr4 a{
+	display: block;
+}
+.fotr4 img{
+	width: 150px;
+}
+.fotr5{
+	text-align: center;
+}
+.fotr5 a{
+	display: block;
+}
+.last{
+	text-align: center;
+	color: lightgray;
+	font-size: 20px;
+}
